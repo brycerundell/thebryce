@@ -8,7 +8,7 @@ body {
 
 #menu li:hover {
   background: #07571F;
-  cursor: hand;
+  cursor: pointer;
 }
 #menu ul {
   list-style: none;
