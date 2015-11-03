@@ -1,18 +1,6 @@
-$(document).ready(function() {
-
-  $('#menu li').mouseenter(function() {
-
-    $(this).find('ul').slideDown();
-    
-    
-    $(this).mouseleave(function(){
-      
-      $(this).find('ul').slideUp();
-      
-    });
+// jQuery for dropdown menus
+$(document).ready(function(){
+  $('#menu li').hover(function(){
+    $(this).find('ul').slideToggle(150);
   });
-
-
-
-
 });
