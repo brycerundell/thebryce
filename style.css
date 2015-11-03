@@ -1,15 +1,21 @@
 body {
   margin: 0;
 }
+
+
 /* menu styling */
+
 #menu {
   width: 100%;
+  position: fixed;
+  z-index: 1;
 }
 
 #menu li:hover {
   background: #07571F;
   cursor: pointer;
 }
+
 #menu ul {
   list-style: none;
   margin: 0;
@@ -28,11 +34,24 @@ body {
   color: white;
   background-color: #3B3A39;
 }
+
 #menu ul li li {
   width: 100%;
   font-size: 15px;
   background-color: #807D80;
 }
+
 #menu ul li ul {
-  display:none;
+  display: none;
+}
+
+
+/*This is the body styling */
+
+#body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 30px;
+  background-color: white;
 }
